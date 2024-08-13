@@ -1,15 +1,15 @@
 services:
   - type: web
-    name: izumi-v3
+    name: BLACK-PANTHER-XMD
     env: node
     branch: main
-    repo: https://github.com/sataniceypz/Izumi-v3.git
+    repo: https://github.com/Linah101/BLACK-PANTHER-XMD.git
     buildCommand: yarn install
     startCommand: node ./index.js
     plan: free
     autoDeploy: false
     envVars:
-      - key: SESSION_ID
+      - key: SESSION_ID 
         sync: false
       - key: MODE
         sync: false
